@@ -1,0 +1,151 @@
+*{margin: 0; padding: 0;}
+
+body {
+    font-family: 'Dorsa', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#contenedor {
+    width: 80%;
+    margin: auto;
+    
+}
+
+
+.img {
+    background-color:#C0C0C0 ;
+    width: 100%;
+    display: flex;
+    justify-content: center;  
+}
+
+
+.img_Walt {
+    border-radius: 210px;
+    width: 20%;
+  }
+
+h1 {
+    font-family:'Dorsa', sans-serif ;
+    font-size: 78px;
+    letter-spacing: 0.08em;
+    
+}
+
+h2 {
+    margin-top: 1%;
+}
+
+p {
+    margin-top: 1%;
+    padding: 1%;
+}
+
+.textos_Walt {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   margin-top: 5%;
+   margin-bottom: 5%;
+}
+
+
+.banner {
+    width: 100%;
+}
+
+.imagenBanner {
+    width: 100%;
+}
+
+.experienciaLaboral {
+    background-color:#1f1f1f;
+}
+
+.titulosTxt {
+    color: white;
+    margin-left: 1%;
+}
+
+ul {
+    color: white;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+}
+
+footer {
+    background-color:rgb(31, 31, 31) ;
+}
+
+.footerTxt {
+    color: white;
+    margin-top: 1%;
+    text-align: center;
+}
+
+.titulosTxt {
+    padding-left: 15px;
+}
+
+.listaExperiencia {
+    padding-left: 20px;
+}
+
+
+/*Display Medianos (560-960px) */
+@media screen and (min-width: 560px) and (max-width: 960px) {
+
+    #contenedor {
+        width: 100%;
+        margin: none;
+    }
+
+    .titulosTxt {
+        padding-left: 15px;
+    }
+    
+    .listaExperiencia {
+        padding-left: 20px;
+    }
+
+}
+
+/*Display Chicos (0-560px) */
+
+@media screen and (min-width: 0) and (max-width: 560px) {
+
+#contenedor {
+    width: 100%;
+    margin: none;
+}
+
+.img {
+    width: 100%;
+}
+
+.img_Walt {
+    width: 40%;
+}
+
+h1 {
+    margin-bottom: 5%;
+}
+
+h2 {
+    margin-bottom: 5%;
+}
+
+ul {
+    margin-bottom: 5%;
+}
+
+.titulosTxt {
+    padding-left: 15px;
+}
+
+.listaExperiencia {
+    padding-left: 20px;
+}
+}
